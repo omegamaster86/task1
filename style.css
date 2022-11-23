@@ -34,12 +34,6 @@ img {
     color: black;
 }
 
-/*.border {
-    border-right: 2px solid black;
-    height: 20px;
-    margin-top: 2%;
-}*/
-
 .border {
     position:relative;
     display:inline-block;
@@ -85,21 +79,24 @@ img {
 
 .about-headline {
     position: absolute;
-    top: -21%;
+    top: -26%;
     left: 0.5%;
-    font-size: x-large;
+    font-size: 43px;
 }
 
 .about-text {
     position: relative;
+    font-size: 17px;
+    line-height: 35px;
+    letter-spacing: 4px;
 }
 
 .exclamation {
     color: #D4004E;
     position: absolute;
-    top: -11%;
-    left: -2%;
-    font-size: 35px;
+    top: -17%;
+    left: -3%;
+    font-size: 71px;
 }
 
 .about-btn {
@@ -130,15 +127,14 @@ img {
     position: relative;
     top: 166%;
     left: 10%;
-    font-size: x-large;
-    letter-spacing: 3px;
+    font-size: 43px;
 }
 
 .middle-exclamation {
     position: absolute;
     color: #D4004E;
-    font-size: 35px;
-    left: 8%;
+    font-size: 71px;
+    left: 7%;
     top: -2%;
 }
 
@@ -156,74 +152,79 @@ img {
     border: 1px solid #707070;
 }
 
+.text-area {
+    display: block;
+    width: 100%;
+}
+
 .rogo-name {
-    position: absolute;
+    position: relative;
     color: #D4004E;
-    padding-left: 8%;
-    top: 24%;
+    padding-left: 15%;
+    padding-top: 6%;
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
 }
 
 .rogo-text {
-    position: absolute;
+    display: block;
+    margin-right: -30%;
     font-weight: 700;
     font-size: 13px;
     line-height: 19px;
-    top: 40%;
-    padding-left: 8%;
+    padding-top: 2%;
+    padding-left: 15%;
 }
 
 .about-btn-second {
     border: solid #D4004E;
+    width: 25%;
+    text-align: center;
+    display: block;
     color: white;
     background-color: #D4004E;
-    text-align: center;
-    margin: 0% 39%;
-    padding: 0% 2%;
-    position: absolute;
-    top: 70%;
-    right: -17%;
+    margin: 10% 0% 0% 26%;
+    padding-right: 2%;
 }
 
-.about-btn-text-second {
-    position: absolute;
-    top: 66.7%;
-    right: 23%;
+.about-btn-second::after {
+    content: ">";
+    padding-left: 6%;
     color: white;
 }
 
 .middle-2 {
-    position: relative;
     display: flex;
     flex-direction: row-reverse;
+    padding-bottom: 3%;
+}
+
+.rogo2 {
+    padding-right: 31%;
 }
 
 .rogo2 img {
-    position: absolute;
-    padding: 6% 11%;
+    padding: 30% 55%;
     border: 1px solid #707070;
-    left: 49.5%;
 }
 
 .rogo-name2 {
-    position: absolute;
     color: #D4004E;
-    right: 66%;
-    top: 40px;
+    padding-left: 20%;
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
+    padding-top: 3%;
+    padding-left: 30%
 }
 
 .rogo-text2 {
-    position: absolute;
     font-weight: 700;
     font-size: 13px;
     line-height: 19px;
-    right: 61.7%;
-    top: 95px;
+    padding-left: 30%;
+    padding-top: 2%;
 }
 
 .about-btn-second2 {
@@ -231,79 +232,41 @@ img {
     color: white;
     background-color: #D4004E;
     text-align: center;
-    margin: 0% 39%;
-    padding: 0% 2%;
-    position: absolute;
-    top: 230px;
-    left: -23%;
+    margin: 10% 0% 0% 41%;
+    padding-right: 2%;
+    width: 27%;
 }
 
-.about-btn-text-second2 {
-    position: absolute;
-    top: 216px;
-    right: 71%;
+.about-btn-second2::after {
+    content: ">";
+    padding-left: 6%;
     color: white;
 }
 
 .middle-3 {
-    position: relative;
-    display: flex;
-}
-
-.rogo3 img {
-    position: absolute;
-    padding: 6% 11%;
-    border: 1px solid #707070;
-    left: 7%;
-    top: 355px;
-}
-
-.rogo-name3 {
-    position: absolute;
-    color: #D4004E;
-    right: 34%;
-    top: 390px;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-}
-
-.rogo-text3 {
-    position: absolute;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 19px;
-    right: 14.4%;
-    top: 444px;
-}
-
-.about-btn-second3 {
-    border: solid #D4004E;
-    color: white;
-    background-color: #D4004E;
-    text-align: center;
-    margin: 0% 39%;
-    padding: 0% 2%;
-    position: absolute;
-    top: 560px;
-    right: -17%;
-}
-
-.about-btn-text-second3 {
-    position: absolute;
-    top: 546px;
-    right: 23%;
-    color: white;
-}
-
-.middle-last {
-    position: relative;
     display: flex;
     flex-direction: row-reverse;
+    padding-top: 5%;
+}
+
+.rogo-last {
+    position: relative;
+    padding-right: 43%;
+    padding-top: 19%;
+    margin-right: 8%;
+    border: 1px solid #707070;
+}
+
+.rogo-last::before {
+    position: absolute;
+    content: "IoT";
+    font-size: xx-large;
+    color: black;
+    top: 34%;
+    left: 45%;
 }
 
 .rogo-last p {
-    position: absolute;
     top: 799px;
     right: 24%;
     font-size: xx-large;
@@ -311,81 +274,80 @@ img {
 
 .rogo-last img {
     position: absolute;
-    padding: 8.7% 19.6%;
-    border: 1px solid #707070;
-    left: 49.5%;
-    top: 710px;
+    top: 35%;
+    left: 36%;
 }
 
-.rogo-name-last {
-    position: absolute;
+.rogo-name3 {
     color: #D4004E;
-    right: 79%;
-    top: 746px;
+    padding-left: 20%;
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
+    padding-top: 3%;
+    padding-left: 30%;
 }
 
-.rogo-text-last {
-    position: absolute;
+.rogo-text3 {
     font-weight: 700;
     font-size: 13px;
     line-height: 19px;
-    right: 58.7%;
-    top: 820px;
+    padding-left: 30%;
+    padding-top: 2%;
 }
 
-.about-btn-last {
+.about-btn-second3 {
     border: solid #D4004E;
     color: white;
     background-color: #D4004E;
     text-align: center;
-    margin: 0% 39%;
-    padding: 0% 2%;
-    position: absolute;
-    top: 935px;
-    left: -21%;
+    margin: 7% 0% 0% 41%;
+    width: 26%;
 }
 
-.about-btn-text-last {
-    position: absolute;
-    top: 922px;
-    right: 69%;
+.about-btn-second3::after {
+    content: ">";
+    padding-left: 6%;
     color: white;
 }
 
 .news-headline {
     position: absolute;
-    top: -92%;
-    left: 0%;
-    font-weight: 500;
     font-size: 43px;
-    line-height: 62px;
-
-}
-
-.news-exclamation {
-    position: absolute;
-    top: -61%;
-    left: -3%;
-    color: #D4004E;
-    font-size: 71px;
-}
-
-.NEWS {
-    position: relative;
-    border: solid;
-    top: 980px;
-    margin: 9% 9% 0%;
-    padding: 1%;
-    border-color: transparent;
-    background-color: #F2F3F7;
+    margin: -7% 0% 0% -1%;
 }
 
 .newstext {
+    position: relative;
     display: flex;
     align-items: center;
+    padding: 1%;
+    border-color: transparent;
+    background-color: #F2F3F7;
+    margin: 6% 8% 0%;
+}
+
+.newstext::before {
+    position: absolute;
+    content: "!";
+    color: #D4004E;
+    font-size: 71px;
+    top: -52%;
+    left: -2%;
+}
+
+.newstext::after {
+    position: absolute;
+    content: "NEWS";
+    font-size: 43px;
+    top: -35%;
+}
+
+.newstext2 {
+    display: flex;
+    align-items: center;
+    border-color: transparent;
+    background-color: #F2F3F7;
 }
 
 .news-title{
@@ -417,8 +379,7 @@ img {
 .NEWS2 {
     position: relative;
     border: solid;
-    top: 980px;
-    margin: 1% 9%;
+    margin: 1% 8% 0%;
     padding: 1%;
     border-color: transparent;
     background-color: #F2F3F7;
@@ -446,16 +407,22 @@ img {
 }
 
 .another-page {
+    position: relative;
     border: solid #D4004E;
-    position: absolute;
-    top: 488%;
-    left: 2%;
     color: white;
     background-color: #D4004E;
     text-align: center;
-    margin: 0% 39%;
-    padding: 0% 8%;
+    margin: 4% 43%;
+    padding-right: 2%;
     line-height: 0;
+}
+
+.another-page::after {
+    position: absolute;
+    content: ">";
+    padding-left: 47%;
+    top: 50%;
+    color: white;
 }
 
 .another-pageinner {
@@ -465,10 +432,12 @@ img {
     color: white;
 }
 
+footer {
+    position: relative;
+}
+
 .footer {
-    position: absolute;
-    top: 510%;
-    height: 50%;
+    height: 25rem;
     width: 100%;
     background-color: #333;
     color: white;
@@ -538,14 +507,14 @@ footer ul li {
 .footer-another-page {
     border: solid white;
     position: absolute;
-    top: 535%;
+    top: 47%;
     left: 2%;
     color: black;
     background-color: white;
     text-align: center;
     margin: 0% 39%;
     padding: 0% 4%;
-    line-height: 0;
+    line-height: 0%;
 }
 
 .footer-another-pageinner {
@@ -557,7 +526,7 @@ footer ul li {
 
 small p {
     position: absolute;
-    top: 550%;
+    top: 76%;
     left: 41%;
     color: white;
     font-weight: 700;
