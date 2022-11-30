@@ -1,5 +1,6 @@
 .top-image {
     height: 800px;
+    margin: -21.44px;
     background-size: cover;
     text-align: center;
     background-color: lightgrey;
@@ -111,10 +112,10 @@ img {
     left: 3%;
 }
 
-.about-btn-text {
+.about-btn::after {
+    content: ">";
     position: absolute;
-    top: 87%;
-    right: 45%;
+    right: 7%;
     color: white;
 }
 
@@ -143,12 +144,12 @@ img {
 }
 
 .rogo {
-    margin: 0% 21% 0% 8%;
+    margin: 0% 3% 0% 8%;
     padding-top: 2%;
 }
 
 .rogo img {
-    padding: 30% 55%;
+    padding: 80px 140px;
     border: 1px solid #707070;
 }
 
@@ -179,13 +180,12 @@ img {
 
 .about-btn-second {
     border: solid #D4004E;
-    width: 25%;
+    width: 170px;
     text-align: center;
     display: block;
     color: white;
     background-color: #D4004E;
-    margin: 10% 0% 0% 26%;
-    padding-right: 2%;
+    margin: 10% 29% 0%;
 }
 
 .about-btn-second::after {
@@ -201,11 +201,11 @@ img {
 }
 
 .rogo2 {
-    padding-right: 31%;
+    padding-right: 8%;
 }
 
 .rogo2 img {
-    padding: 30% 55%;
+    padding: 80px 140px;
     border: 1px solid #707070;
 }
 
@@ -233,8 +233,7 @@ img {
     background-color: #D4004E;
     text-align: center;
     margin: 10% 0% 0% 41%;
-    padding-right: 2%;
-    width: 27%;
+    width: 170px;
 }
 
 .about-btn-second2::after {
@@ -251,8 +250,7 @@ img {
 
 .rogo-last {
     position: relative;
-    padding-right: 43%;
-    padding-top: 19%;
+    padding: 140px 280px;
     margin-right: 8%;
     border: 1px solid #707070;
 }
@@ -262,7 +260,7 @@ img {
     content: "IoT";
     font-size: xx-large;
     color: black;
-    top: 34%;
+    top: 45%;
     left: 45%;
 }
 
@@ -274,7 +272,7 @@ img {
 
 .rogo-last img {
     position: absolute;
-    top: 35%;
+    top: 45%;
     left: 36%;
 }
 
@@ -285,14 +283,14 @@ img {
     font-size: 20px;
     line-height: 30px;
     padding-top: 3%;
-    padding-left: 30%;
+    padding-left: 27%;
 }
 
 .rogo-text3 {
     font-weight: 700;
     font-size: 13px;
     line-height: 19px;
-    padding-left: 30%;
+    padding-left: 27%;
     padding-top: 2%;
 }
 
@@ -301,8 +299,8 @@ img {
     color: white;
     background-color: #D4004E;
     text-align: center;
-    margin: 7% 0% 0% 41%;
-    width: 26%;
+    margin: 7% 0% 0% 40%;
+    width: 170px;
 }
 
 .about-btn-second3::after {
@@ -320,11 +318,17 @@ img {
 .newstext {
     position: relative;
     display: flex;
+    justify-content: space-around;
     align-items: center;
     padding: 1%;
     border-color: transparent;
     background-color: #F2F3F7;
     margin: 6% 8% 0%;
+    width: 84%;
+}
+
+.newstext p {
+    justify-content: center;
 }
 
 .newstext::before {
@@ -341,10 +345,12 @@ img {
     content: "NEWS";
     font-size: 43px;
     top: -35%;
+    left: 1%;
 }
 
 .newstext2 {
     display: flex;
+    justify-content: space-around;
     align-items: center;
     border-color: transparent;
     background-color: #F2F3F7;
@@ -368,8 +374,9 @@ img {
     height: 20px;
     background-color: black;
     position: absolute;
-    top: 37px;
-    left: 347px
+    top: 40%;
+    left: 32%;
+    right: 67%;
 }
 
 .news-text-last {
@@ -412,7 +419,7 @@ img {
     color: white;
     background-color: #D4004E;
     text-align: center;
-    margin: 4% 43%;
+    margin: 4% 44%;
     padding-right: 2%;
     line-height: 0;
 }
