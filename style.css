@@ -1,23 +1,27 @@
+.all {
+    width: 1280px;
+    margin: auto;
+    margin-top: 800px;
+}
+
 .top-image {
     height: 800px;
+    margin: auto;
     background-size: cover;
     text-align: center;
     background-color: lightgrey;
 }
 
 .top {
+    position: relative;
     border: solid 3px white;
     background-color: white;
     box-shadow: 5px 5px 0px 0px darkgray ;
-    position: absolute;
-    top: 5%;
-    left: 7%;
-    width: 85%;
-    height: 12%;
-}
-
-img {
-    position: relative;
+    width: 974px;
+    height: 14%;
+    margin: auto;
+    z-index: 30;
+    margin-top: -774px    
 }
 
 .top ul li img {
@@ -30,15 +34,9 @@ img {
 .top ul li a {
     text-decoration: none;
     text-align: center;
-    padding: 1% 4%;
+    padding: 1% 3%;
     color: black;
 }
-
-/*.border {
-    border-right: 2px solid black;
-    height: 20px;
-    margin-top: 2%;
-}*/
 
 .border {
     position:relative;
@@ -67,9 +65,475 @@ img {
 
 .list-top {
     letter-spacing: 0.15em;
+    font-weight: bold;
 }
 
 .list-under {
     letter-spacing: 0.15em;
     font-size: 12px;
+}
+
+.about {
+    position: relative;
+    border: solid;
+    margin: 7%;
+    padding: 4%;
+    border-color: transparent;
+    background-color: #F2F3F7;
+}
+
+.about-headline {
+    position: absolute;
+    top: -26%;
+    left: 0.5%;
+    font-size: 43px;
+}
+
+.about-text {
+    position: relative;
+    font-size: 17px;
+    line-height: 35px;
+    letter-spacing: 4px;
+}
+
+.exclamation {
+    color: #D4004E;
+    position: absolute;
+    top: -17%;
+    left: -3%;
+    font-size: 71px;
+}
+
+.about-btn {
+    border: solid #D4004E;
+    color: white;
+    background-color: #D4004E;
+    text-align: center;
+    margin: 0% 39%;
+    padding: 0% 4%;
+    position: absolute;
+    top: 94%;
+    left: 3%;
+}
+
+.about-btn::after {
+    content: ">";
+    position: absolute;
+    right: 7%;
+    color: white;
+}
+
+.middle-1 {
+    position: relative;
+    padding-bottom: 5%;
+}
+
+.middle-headline {
+    position: relative;
+    top: 166%;
+    left: 8%;
+    font-size: 43px;
+}
+
+.middle-exclamation {
+    position: absolute;
+    color: #D4004E;
+    font-size: 71px;
+    left: 4.5%;
+    top: -2%;
+}
+
+.middle {
+    display: flex;
+}
+
+.rogo {
+    margin: 0% 3% 0% 6%;
+    padding-top: 2%;
+}
+
+.rogo img {
+    padding: 80px 140px;
+    border: 1px solid #707070;
+}
+
+.text-area {
+    display: block;
+    width: 100%;
+}
+
+.rogo-name {
+    position: relative;
+    color: #D4004E;
+    padding-left: 15%;
+    padding-top: 6%;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.rogo-text {
+    display: block;
+    margin-right: -30%;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    padding-top: 2%;
+    padding-left: 15%;
+}
+
+.about-btn-second {
+    border: solid #D4004E;
+    width: 170px;
+    text-align: center;
+    display: block;
+    color: white;
+    background-color: #D4004E;
+    margin: 10% 29% 0%;
+}
+
+.about-btn-second::after {
+    content: ">";
+    padding-left: 6%;
+    color: white;
+}
+
+.middle-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 3%;
+}
+
+.rogo2 {
+    padding-right: 7%;
+}
+
+.rogo2 img {
+    padding: 80px 140px;
+    border: 1px solid #707070;
+}
+
+.rogo-name2 {
+    color: #D4004E;
+    padding-left: 20%;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 3%;
+    padding-left: 30%
+}
+
+.rogo-text2 {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    padding-left: 30%;
+    padding-top: 2%;
+}
+
+.about-btn-second2 {
+    border: solid #D4004E;
+    color: white;
+    background-color: #D4004E;
+    text-align: center;
+    margin: 10% 0% 0% 41%;
+    width: 170px;
+}
+
+.about-btn-second2::after {
+    content: ">";
+    padding-left: 6%;
+    color: white;
+}
+
+.middle-3 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 5%;
+}
+
+.rogo-last {
+    position: relative;
+    padding: 140px 280px;
+    margin-right: 7%;
+    border: 1px solid #707070;
+}
+
+.rogo-last::before {
+    position: absolute;
+    content: "IoT";
+    font-size: xx-large;
+    color: black;
+    top: 45%;
+    left: 45%;
+}
+
+.rogo-last p {
+    top: 799px;
+    right: 24%;
+    font-size: xx-large;
+}
+
+.rogo-last img {
+    position: absolute;
+    top: 45%;
+    left: 36%;
+}
+
+.rogo-name3 {
+    color: #D4004E;
+    padding-left: 20%;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 3%;
+    padding-left: 27%;
+}
+
+.rogo-text3 {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    padding-left: 27%;
+    padding-top: 2%;
+}
+
+.about-btn-second3 {
+    border: solid #D4004E;
+    color: white;
+    background-color: #D4004E;
+    text-align: center;
+    margin: 7% 0% 0% 40%;
+    width: 170px;
+}
+
+.about-btn-second3::after {
+    content: ">";
+    padding-left: 6%;
+    color: white;
+}
+
+.news-headline {
+    position: absolute;
+    top: -77%;
+    left: 0.5%;
+    font-size: 43px;
+}
+
+.news-exclamation {
+    position: absolute;
+    color: #D4004E;
+    font-size: 71px;
+    left: -3%;
+    top: -56%;
+}
+
+.newstext {
+    position: relative;
+    display: flex;
+    /*justify-content: space-around;*/
+    align-items: center;
+    padding: 1%;
+    border-color: transparent;
+    background-color: #F2F3F7;
+    margin: 6% 7% 0%;
+    width: 86%;
+}
+
+.newstext p {
+    justify-content: center;
+}
+
+.newstext2 {
+    display: flex;
+    align-items: center;
+    border-color: transparent;
+    background-color: #F2F3F7;
+}
+
+.news-title{
+    border: 1px solid #E5A31C;
+    color: #E5A31C;
+    margin-right: 15px;
+    padding: 4px;
+}
+
+.news-date {
+    margin-right: 40px;
+}
+
+.news-date::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top: 40%;
+    left: 30.4%;
+}
+
+.news-text-last {
+    margin-left: 23px;
+}
+
+.NEWS2 {
+    position: relative;
+    border: solid;
+    margin: 1% 7% 0%;
+    padding: 1%;
+    border-color: transparent;
+    background-color: #F2F3F7;
+    width: 86%;
+}
+
+.news-title2{
+    border: 1px solid #D4004E;
+    color: #D4004E;
+    margin-right: 15px;
+    padding: 4px 70px;
+}
+
+.news-title3{
+    border: 1px solid #5FA153;
+    color: #5FA153;
+    margin-right: 15px;
+    padding: 4px 26px;
+}
+
+.news-title4{
+    border: 1px solid #50BBF4;
+    color: #50BBF4;
+    margin-right: 15px;
+    padding: 4px 47px;
+}
+
+.another-page {
+    position: relative;
+    border: solid #D4004E;
+    color: white;
+    background-color: #D4004E;
+    text-align: center;
+    margin: 4% 44%;
+    padding-right: 2%;
+    line-height: 0;
+}
+
+.another-page::after {
+    position: absolute;
+    content: ">";
+    padding-left: 47%;
+    top: 50%;
+    color: white;
+}
+
+.another-pageinner {
+    position: absolute;
+    top: 0%;
+    right: 8%;
+    color: white;
+}
+
+footer {
+    position: relative;
+}
+
+.footer {
+    height: 25rem;
+    width: 100%;
+    background-color: #333;
+    color: white;
+}
+
+footer ul li {
+    display: flex;
+}
+
+.footer-list {
+    position: absolute;
+    top: 22%;
+    left: 27%;
+}
+
+.footer-border::after {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 23%;
+    left: 35%;
+}
+
+.footer-list2 {
+    position: absolute;
+    top: 22%;
+    left: 38%;
+}
+
+.footer-border2::after {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 23%;
+    left: 46%;
+}
+
+.footer-list3 {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+}
+
+.footer-border3::after {
+    content: "";
+    display: inline-block;
+    width: 3px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 23%;
+    left: 66.5%;
+}
+
+.footer-list4 {
+    position: absolute;
+    top: 22%;
+    left: 69%;
+}
+
+.footer-another-page {
+    border: solid white;
+    position: absolute;
+    top: 47%;
+    left: 2%;
+    color: black;
+    background-color: white;
+    text-align: center;
+    margin: 0% 40%;
+    padding-right: 2.5%;
+    padding-left: 2%;
+    line-height: 0%;
+}
+
+.footer-another-pageinner {
+    position: absolute;
+    top: -19%;
+    right: 4%;
+    font-size: 20px;
+    color: black;
+}
+
+small p {
+    position: absolute;
+    top: 76%;
+    left: 41%;
+    color: white;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 13px;
 }
